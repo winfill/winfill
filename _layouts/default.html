@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+  <div id="wrapper">
+		<header>
+			{% include header.html %}
+		</header>
+
+		{{content}}
+		<!-- Page Content -->
+		<div id="page-content-wrapper">
+			{% include footer.html %}
+		</div>
+	</div>
+	<!-- /#page-content-wrapper -->
+</body>
+
+</html>

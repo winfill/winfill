@@ -1,0 +1,39 @@
+# Site settings
+title: Looking for a dream.
+author: Wenfeng Wang
+email: wenfeng@wangwenfeng.cn
+#description: >
+#  A guide to getting started with Jekyll.
+# url: https://winfill.github.io
+baseurl: ""
+
+# social links
+github_username:  winfill
+#rss: rss
+#twitter_username: 
+#dribbble_username: 
+#facebook_username: 
+#flickr_username: 
+#instagram_username: 
+#linkedin_username: 
+#pinterest_username: 
+#youtube_username: 
+#googleplus_username: +
+
+#show_excerpts: false # set to true to show excerpts on the homepage
+
+# date format
+date_format: "%b %-d, %Y"
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.html
+
+# Build settings
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+kramdown:
+    input: GFM
+#theme:
+exclude: ['README.md']

@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<button type="button" class="hamburger is-closed animated fadeInLeft" data-toggle="offcanvas">
+	<span class="hamb-top"></span>
+	<span class="hamb-middle"></span>
+	<span class="hamb-bottom"></span>
+</button>
+<div class="container">
+	<div class="left">
+		<header>
+			<h1 class="article-head">{{ page.title }}</h1>
+			<span class="fa fa-calendar" style="font-size:16px">
+			{{ page.date | date: "%Y-%m-%d" }}
+			</span>&nbsp;&nbsp;
+			<span class="fa fa-user" style="font-size:16px">
+			{% if page.author %}
+				{{ page.author }}
+			{% endif %}
+			</span>&nbsp;&nbsp;
+			<span>
+				{% if page.meta %} • {{ page.meta }}{% endif %}
+			</span>&nbsp;&nbsp;
+			<span class="fa fa-list-ul" style="font-size:16px">
+			{% if page.categories %}
+				{{ page.categories }}
+			{% endif %}
+			</span>&nbsp;&nbsp;
+			<span class="fa fa-tags" style="font-size:16px">
+			{% if page.tags %}
+				{{ page.tags }}
+			{% endif %}
+			</span>
+		</header>
+		<hr />
+		<article>
+			{{ content }}
+		</article>
+	</div>
+</div>
