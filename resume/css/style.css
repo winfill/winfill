@@ -2561,7 +2561,7 @@ a.huiyuan-upload {
 
 /**/
 
-/*五百丁vip锁住样式*/
+/*锁住样式*/
 .wbd-vip-lock {
     background: url(../../cvresume/images/vip_key1.png) no-repeat 0px 0px;
 }
@@ -3367,6 +3367,22 @@ a.huiyuan-upload {
     background-size: 11pt 11pt;
     -moz-background-size: 11pt 11pt; /* 老版本的 Firefox */
     border-radius: 50%;
-    border: 1px solid rgb(170,170,170);
+    border: 1px solid #868686;
     margin: auto;
+}
+
+.home-con a:link {
+    color: #868686;
+}
+
+.home-con a:visited {
+    color: #868686;
+}
+
+.home-con a:hover {
+    color: #868686;
+}
+
+.home-con a:active {
+    color: #868686;
 }
